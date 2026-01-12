@@ -102,7 +102,7 @@ mostrarSemanaAtual();
 
 // ====== CONTAGEM REGRESSIVA PARA 2026 ======
 function atualizarContagemRegressiva() {
-  const destino = new Date("2025-12-31T23:59:59");
+  const destino = new Date("2026-12-31T23:59:59");
   const agora = new Date();
   const diff = destino - agora;
 
@@ -117,15 +117,15 @@ function atualizarContagemRegressiva() {
   const segundos = Math.floor((diff / 1000) % 60);
 
   document.getElementById("contador").textContent = 
-    `Faltam ${dias}d ${horas}h ${minutos}m ${segundos}s para 2026 🎆`;
+    `Faltam ${dias}d ${horas}h ${minutos}m ${segundos}s para 2026 🎉`;
 }
 
 setInterval(atualizarContagemRegressiva, 1000);
 atualizarContagemRegressiva();
 
-// ====== CONTAGEM REGRESSIVA ANIVERSÁRIO BIA ======
+// ====== CONTAGEM REGRESSIVA ANIVERSÁRIO DA BIA ======
 function atualizarAniversarioBia() {
-  const destino = new Date("2025-12-29T23:59:59");
+  const destino = new Date("2026-12-29T23:59:59");
   const agora = new Date();
   const diff = destino - agora;
 
@@ -148,7 +148,7 @@ atualizarAniversarioBia();
 
 // ====== CONTAGEM REGRESSIVA ANIVERSÁRIO LUIZ ======
 function atualizarAniversarioLuiz() {
-  const destino = new Date("2026-01-07T23:59:59");
+  const destino = new Date("2027-01-07T23:59:59");
   const agora = new Date();
   const diff = destino - agora;
 
@@ -248,7 +248,7 @@ carregarNoticias();
 function atualizarContador(){
   const el = document.getElementById('contador');
   if(!el) return;
-  const destino = new Date("2025-12-31T23:59:59");
+  const destino = new Date("2026-12-31T23:59:59");
   const agora = new Date();
   const diff = destino - agora;
   if(diff <= 0) { el.textContent = '🎉 Feliz 2026!'; return; }
@@ -256,7 +256,7 @@ function atualizarContador(){
   const horas = Math.floor((diff/(1000*60*60))%24);
   const minutos = Math.floor((diff/(1000*60))%60);
   const segundos = Math.floor((diff/1000)%60);
-  el.textContent = `Faltam ${dias}d ${horas}h ${minutos}m ${segundos}s para 2026`;
+  el.textContent = `Faltam ${dias}d ${horas}h ${minutos}m ${segundos}s para 2026 🎉`;
 }
 setInterval(atualizarContador,1000);
 atualizarContador();
