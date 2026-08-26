@@ -6,7 +6,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Luiz Arrua - Currículo</title>
+  <title>Luiz Arrua - Integrações, APIs & Automação</title>
   <link rel="icon" type="image/png" href="la.png">
   <link rel="stylesheet" href="style.css" />
 </head>
@@ -26,7 +26,7 @@
     <header class="page-hero">
       <div>
         <h1 class="page-title">Luiz Felipe Arrua Castilho</h1>
-        <p class="page-subtitle">Líder de suporte técnico • Helpdesk N1/N2 • Automação (Python/SQL/Power BI)</p>
+        <p class="page-subtitle">Programador • Integração de Sistemas & APIs • Automação • Dados</p>
         <p class="page-subtitle"><a href="https://www.linkedin.com/in/luizarrua/" target="_blank" rel="noreferrer">linkedin.com/in/luizarrua</a></p>
       </div>
       <div class="hero-actions">
@@ -35,30 +35,111 @@
       </div>
     </header>
 
+    <!-- COMO POSSO AJUDAR -->
+    <section class="panel help-panel">
+      <h2>Como posso ajudar</h2>
+      <p class="muted">Eu desenvolvo soluções que conectam sistemas, automatizam processos e transformam necessidades de negócio em soluções técnicas.</p>
+
+      <div class="help-grid">
+        <div class="help-item">
+          <span class="help-icon">🔗</span>
+          <h3>Integração de Sistemas</h3>
+          <p class="muted">APIs REST • Webhooks • JSON • Postman</p>
+        </div>
+        <div class="help-item">
+          <span class="help-icon">⚙️</span>
+          <h3>Automação</h3>
+          <p class="muted">Python • lógica de programação • automação de processos</p>
+        </div>
+        <div class="help-item">
+          <span class="help-icon">📊</span>
+          <h3>Dados</h3>
+          <p class="muted">SQL • Power BI • tratamento e análise de dados</p>
+        </div>
+        <div class="help-item">
+          <span class="help-icon">🛠</span>
+          <h3>Troubleshooting</h3>
+          <p class="muted">Análise de logs • diagnóstico de falhas • causa raiz</p>
+        </div>
+        <div class="help-item">
+          <span class="help-icon">🤝</span>
+          <h3>Técnico + Cliente</h3>
+          <p class="muted">Levantamento de requisitos • suporte • stakeholders</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMPETÊNCIAS POR NÍVEL -->
+    <section class="panel">
+      <h2>Competências</h2>
+
+      <h3 class="panel-sub">Uso profissional</h3>
+      <div class="chips">
+        <span class="chip">APIs REST</span>
+        <span class="chip">Webhooks</span>
+        <span class="chip">JSON</span>
+        <span class="chip">Postman</span>
+        <span class="chip">Lógica de programação</span>
+        <span class="chip">Análise de logs</span>
+      </div>
+
+      <h3 class="panel-sub">Já utilizei</h3>
+      <div class="chips">
+        <span class="chip">Python</span>
+        <span class="chip">SQL</span>
+        <span class="chip">Power BI</span>
+        <span class="chip">Windows</span>
+        <span class="chip">Linux</span>
+      </div>
+
+      <h3 class="panel-sub">Estudando atualmente</h3>
+      <div class="chips">
+        <span class="chip">Estatística e Ciência de Dados</span>
+        <span class="chip">Análise e Desenvolvimento de Sistemas</span>
+      </div>
+    </section>
+
     <section class="resume-grid">
       <article class="panel">
         <h2>Informações de contato</h2>
         <div class="kv">
           <div class="kv-row"><span>Complete Name</span><b>Luiz Felipe Arrua Castilho</b></div>
-          <div class="kv-row"><span>First Name</span><b>Luiz Felipe</b></div>
-          <div class="kv-row"><span>Last Name</span><b>Arrua Castilho</b></div>
           <div class="kv-row"><span>Email</span><b>luizarrua16@gmail.com</b></div>
           <div class="kv-row"><span>Fone</span><b>41 99141-5164</b></div>
+          <div class="kv-row"><span>Localização</span><b>Curitiba • Paraná • Brasil</b></div>
         </div>
 
-        <h3 class="panel-sub">Endereço</h3>
-        <div class="kv">
-          <div class="kv-row"><span>Rua</span><b>Rua Professora Júlia Valery Legat Neal</b></div>
-          <div class="kv-row"><span>Complemento</span><b>Casa</b></div>
-          <div class="kv-row"><span>Bairro</span><b>Xaxim</b></div>
-          <div class="kv-row"><span>Cidade/Estado</span><b>Curitiba • Paraná</b></div>
-          <div class="kv-row"><span>País</span><b>Brasil</b></div>
-          <div class="kv-row"><span>CEP</span><b>81810-590</b></div>
+        <h3 class="panel-sub">Idiomas</h3>
+        <div class="chips">
+          <span class="chip">Português (nativo)</span>
+          <span class="chip">Inglês (básico)</span>
+          <span class="chip">Espanhol (básico)</span>
         </div>
       </article>
 
       <article class="panel">
-        <h2>Empregos anteriores</h2>
+        <h2>Experiência</h2>
+
+        <div class="job">
+          <div class="job-head">
+            <div>
+              <h3>Zenvia</h3>
+              <p class="muted">Programador Pleno • CLT</p>
+            </div>
+            <div class="job-dates">fev/2026 • atual</div>
+          </div>
+
+          <p class="muted">Desenvolvimento de soluções conversacionais e integrações via APIs REST e Webhooks, com foco em chatbots, automação de fluxos e consumo de sistemas externos.</p>
+
+          <h4>Principais atividades</h4>
+          <ul class="clean-list">
+            <li>Configuração, estruturação e publicação de fluxos de chatbot em ambiente de produção.</li>
+            <li>Integrações com sistemas externos via API REST, tratamento de dados em JSON e testes/validação com Postman.</li>
+            <li>Investigação de falhas e análise de logs para identificar causas de inconsistências em integrações.</li>
+            <li>Validação do comportamento das integrações em homologação junto a stakeholders.</li>
+            <li>Apoio a clientes no onboarding técnico, ajustes e evolução contínua das soluções entregues.</li>
+          </ul>
+        </div>
 
         <div class="job">
           <div class="job-head">
@@ -66,7 +147,7 @@
               <h3>VorpTech</h3>
               <p class="muted">Líder de suporte técnico • CLT</p>
             </div>
-            <div class="job-dates">14/02/2023 • atual</div>
+            <div class="job-dates">fev/2023 • fev/2026</div>
           </div>
 
           <p class="muted">Responsável técnico pela área de Suporte/Helpdesk, liderança de equipe, atendimento corporativo e estabilidade dos ambientes de TI.</p>
@@ -95,19 +176,10 @@
               <h3>Telefónica (Vivo)</h3>
               <p class="muted">Atendimento ao cliente • CLT</p>
             </div>
-            <div class="job-dates">01/10/2018 • 01/07/2022</div>
+            <div class="job-dates">out/2018 • jul/2022</div>
           </div>
 
-          <p class="muted">Atuação em Suporte N1 e evolução para posições de atendimento crítico e níveis mais avançados.</p>
-          <ul class="clean-list">
-            <li>Suporte N1</li>
-            <li>Móvel Crítico</li>
-            <li>Programa Anjos (6 meses em contato com suporte ao operador durante atendimento)</li>
-            <li>Móvel Top</li>
-            <li>Cluster (Móvel e Fixo / Vendas)</li>
-            <li>Vivo V Atendente N3</li>
-            <li>Consultor N1 WhatsApp Vivo V</li>
-          </ul>
+          <p class="muted">Atuação em Suporte N1 e evolução para posições de atendimento crítico e níveis mais avançados, incluindo Móvel Crítico, Cluster e Vivo V (N3).</p>
         </div>
       </article>
 
@@ -115,8 +187,8 @@
         <h2>Formação acadêmica</h2>
 
         <div class="edu">
-          <h3>Gestão da Informação — Universidade Federal do Paraná (UFPR)</h3>
-          <p class="muted">Ensino Superior • Interrompido • Conclusão: 03/2022 • Matutino</p>
+          <h3>Estatística e Ciência de Dados — Universidade Federal do Paraná (UFPR)</h3>
+          <p class="muted">Ensino Superior • Cursando (2º ano) • Conclusão prevista: 07/2029 • Noturno</p>
         </div>
 
         <div class="edu">
@@ -125,8 +197,8 @@
         </div>
 
         <div class="edu">
-          <h3>Estatística e Ciência de Dados — Universidade Federal do Paraná (UFPR)</h3>
-          <p class="muted">Ensino Superior • Cursando (2º ano) • Conclusão prevista: 07/2029 • Noturno</p>
+          <h3>Gestão da Informação — Universidade Federal do Paraná (UFPR)</h3>
+          <p class="muted">Ensino Superior • Interrompido • 03/2022 • Matutino</p>
         </div>
       </article>
 
@@ -136,9 +208,9 @@
 
         <div class="chips">
           <span class="chip">Curitiba/PR</span>
-          <span class="chip">CLT</span>
-          <span class="chip">Suporte • Helpdesk</span>
-          <span class="chip">Python • SQL • Power BI</span>
+          <span class="chip">Remoto ou híbrido</span>
+          <span class="chip">Integrações • APIs</span>
+          <span class="chip">Automação • Dados</span>
         </div>
       </article>
     </section>

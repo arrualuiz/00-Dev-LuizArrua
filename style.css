@@ -624,3 +624,33 @@ body.page {
   .page-hero { flex-direction: column; }
   .hero-actions { justify-content: flex-start; }
 }
+
+/* ==========================
+   HELP / COMO POSSO AJUDAR
+   ========================== */
+
+.help-panel { margin-bottom: 14px; }
+
+.help-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.help-item {
+  border: 1px solid rgba(30, 43, 68, 0.6);
+  border-radius: 14px;
+  background: rgba(11, 23, 36, 0.55);
+  padding: 16px;
+}
+
+.help-item h3 {
+  margin: 8px 0 4px;
+  font-size: 1.02rem;
+  color: #eaf2ff;
+}
+
+.help-item p { margin: 0; font-size: 0.9rem; }
+
+.help-icon { font-size: 1.5rem; }
