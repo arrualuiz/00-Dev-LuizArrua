@@ -385,13 +385,9 @@ if (IS_DASHBOARD) {
     'Email: luizarrua16@gmail.com',
     'Fone: 41991415164',
     '',
-    'Endereço: Rua Professora Júlia Valery Legat Neal',
-    'Complemento: Casa',
-    'Bairro: Xaxim',
     'Cidade: Curitiba',
     'Estado: Paraná',
     'País: Brasil',
-    'CEP: 81810-590',
     '',
     'LinkedIn: https://www.linkedin.com/in/luizarrua/'
   ].join('\n');
